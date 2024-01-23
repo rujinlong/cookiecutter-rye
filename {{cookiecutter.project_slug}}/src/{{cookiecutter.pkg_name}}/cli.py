@@ -1,6 +1,6 @@
 """Console script for {{cookiecutter.pkg_name}}."""
 
-{%- if cookiecutter.command_line_interface|lower == 'click' %}
+{%- if cookiecutter.command_line_interface|lower == 'click' -%}
 
 import click
 
@@ -17,7 +17,7 @@ if __name__ == "__main__":
 {%- endif %}
 
 
-{%- if cookiecutter.command_line_interface|lower == "typer" %}
+{%- if cookiecutter.command_line_interface|lower == "typer" -%}
 
 import typer
 
