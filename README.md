@@ -2,8 +2,16 @@
 
 ## Usage
 
-```
+```shell
 cookiecutter https://github.com/rujinlong/cookiecutter-rye.git
+
+# assume package name is `myapp`
+cd myapp
+rye sync
+git init && gaa && gcam "init"
+
+# run app (default: `mycli`)
+mycli
 ```
 
 ## TODO
