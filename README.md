@@ -24,7 +24,7 @@ mycli
 ## TODO
 
 - [ ] Fix `makefile` to use `ruff`
-- [ ] Fix `-pre-commit-config.yaml` to use `ruff`
+- [ ] Fix `.pre-commit-config.yaml` to use `ruff`
 - [ ] Add mkdocs config
 - [ ] Add docker config
 - [ ] Add github actions config
