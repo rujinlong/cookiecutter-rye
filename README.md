@@ -9,7 +9,7 @@ Develop Python package/app with [Cookiecutter](https://cookiecutter.readthedocs.
 
 ```shell
 cookiecutter https://github.com/rujinlong/cookiecutter-rye.git
-# prompt for modify package metadata (package name, author, etc.)
+# prompt for modifying package metadata (package name, author, etc.)
 
 # assume package name is `myapp`
 cd myapp
