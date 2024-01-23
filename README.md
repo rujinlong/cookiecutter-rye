@@ -2,13 +2,16 @@
 
 ## Usage
 
+1. Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html) and [rye](https://rye-up.com/)
+2. Create your project with `cookiecutter`:
+
 ```shell
 cookiecutter https://github.com/rujinlong/cookiecutter-rye.git
 
 # assume package name is `myapp`
 cd myapp
 rye sync
-git init && gaa && gcam "init"
+git init && git add . && git commit -m "init"
 
 # run app (default: `mycli`)
 rye shell
