@@ -1,6 +1,6 @@
 # Cookiecutter Rye
 
-Develop Python project with [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) template and [Rye](https://rye-up.com/) tool.
+Develop Python package/app with [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) template and [Rye](https://rye-up.com/) tool.
 
 ## Usage
 
