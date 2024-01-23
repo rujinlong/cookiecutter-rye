@@ -11,6 +11,7 @@ rye sync
 git init && gaa && gcam "init"
 
 # run app (default: `mycli`)
+rye shell
 mycli
 ```
 
